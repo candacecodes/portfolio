@@ -15,7 +15,7 @@ class Contact extends React.Component {
               <div className="contact-mf">
                 <div id="contact" className="box-shadow-full">
                   <div className="row">
-                    <div className="col-md-6">
+                    {/* <div className="col-md-6">
                       <div className="title-box-2">
                         <h5 className="title-left">Send A Message</h5>
                       </div>
@@ -96,7 +96,7 @@ class Contact extends React.Component {
                           </div>
                         </form>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
                         <h5 className="title-left">Get in Touch</h5>
@@ -107,7 +107,8 @@ class Contact extends React.Component {
                           collaboration, or just say hi, I'd love to hear from
                           you.
                           <br />
-                          Simply fill the from and send me an email.
+                          <br/> 
+                          candacecodes@gmail.com
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
@@ -117,7 +118,7 @@ class Contact extends React.Component {
                       </div>
                       <div className="socials">
                         <ul>
-                          <li>
+                          {/* <li>
                             <a
                               href=""
                               target="_blank"
@@ -127,10 +128,10 @@ class Contact extends React.Component {
                                 <i className="ion-social-codepen"></i>
                               </span>
                             </a>
-                          </li>
+                          </li> */}
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/candacecodes"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,7 +142,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/candacechoe/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
