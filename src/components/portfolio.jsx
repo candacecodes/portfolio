@@ -13,6 +13,8 @@ import stock8 from "../img/image9.jpg";
 import stock9 from "../img/image10.jpg";
 import stock10 from "../img/image11.jpg";
 import stock11 from "../img/image12.jpg";
+import stock12 from "../img/image13.jpg";
+import stock13 from "../img/image14.jpg";
 
 
 
@@ -31,7 +33,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Projects</h3>
                 <p className="lead">
-                  Feel free to check out my latest projects!
+                  Please feel free to check out my latest projects!
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -180,21 +182,22 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                {/* <a
-                  href={stock11}
+                <a
+                  href={stock12}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
+
                 <a
-                  href={stock8}
+                  href={stock13}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                <a
+                                {/* <a
                   href={stock9}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
